@@ -1,0 +1,181 @@
+
+/* This is the styling for whole document and the body */
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    
+}
+
+/* This is the styling for the header class */
+.header {
+    background-color: black;
+    height: 250px;
+    margin: 0;
+    position: relative;
+    top: 0%;
+}
+
+.header h1 {
+    text-align: center;
+    color:darkgrey;
+    margin: 0;
+    font-size: 60px;
+}
+
+.header p{
+    color: ghostwhite;
+    max-width: 700px;
+    text-align: justify;
+    position: absolute;
+    top: 75px;
+    right: 420px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+/* This is to make the all of the images the same size */
+img {
+    height: auto;
+    resize: none;
+}
+
+/* This is the styling for the all of the points of the class */
+.Article-Points {
+    background-color:floralwhite;
+    margin: 0;
+    padding: 0;
+    height: 1600px;
+}
+
+.Article-Points h2{
+    margin: 0;
+    padding: 0;
+}
+
+.Article-Points p {
+    max-width: 500px;
+    font-size: 25px;
+    border: solid 4px black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* The styling for the first point */
+.Point-1 {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.Point-1 h2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 39%;
+    left: 16%;
+}
+
+.Point-1 p {
+    position: absolute;
+    top: 40%;
+    left: 100px; 
+}
+
+.Point-1 img {
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+/* This is the styling for the second point */
+.Point-2 h2 {
+    position: absolute;
+    top: 89%;
+    right: 18%;
+}
+
+.Point-2 p {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+
+.Point-2 img {
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    top: 89%;
+}
+
+/* This is the styling for the third point */
+.Point-3 h2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 169%;
+    left: 7%;
+}
+
+.Point-3 p {
+    position: absolute;
+    top: 170%;
+    left: 100px; 
+}
+
+/* This is the styling for the extra info */
+.Extra-Info {
+    position: absolute;
+    max-width: 600px;
+    top: 170%;
+    right: 150px;
+    background-color: white;
+    height: 400px;
+    margin: 0;
+    border: solid 5px black;
+}
+
+/* Headers */
+#extra-header{
+    font-size: 25px;
+    text-align: center;
+}
+
+#link-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* List elements */
+.Extra-Info ul {
+    display: inline;
+}
+
+.Extra-Info li {
+    display: inline;
+    background-color: lightgray;
+    border: solid 1px black;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+/* Table elements */
+.Extra-Info table, th, td {
+    border: solid 1px black;
+    font-size: 20px;
+}
+
+.Extra-Info table{
+    margin-bottom: 75px;
+}
+
+/* The styling for all the links */
+a {
+    color: black;
+    text-decoration: none;
+}
