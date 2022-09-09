@@ -179,3 +179,10 @@ a {
     color: black;
     text-decoration: none;
 }
+
+/* W3 validation */
+#validator {
+    position: absolute;
+    top: 230%;
+    left: 5%;
+}
